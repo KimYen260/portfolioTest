@@ -1,58 +1,102 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+  <div class="container">
+    <div class="containerWrap">
+      <div class="navWrap">
+        <nav class="navbar">
+          <div class="align-items-center navWrap">
+            <div
+              class="logo"
+              style="
+                border: 3px solid red;
+                box-sizing: border-box;
+                max-height: 108px;
+                max-width: 108px;
+              "
+            >
+              <img
+                src="https://www.mcdonalds.com/etc/designs/mcd/tw/zh-tw/_jcr_content/logo/image.img.jpg/1649654364979.jpg"
+                alt=""
+              />
+            </div>
+            <div class="navWrap">
+              <div  style="border: 1px solid red">
+                <span>別具滋味</span>
+              </div>
+              <div  style="border: 1px solid red">
+                <span>企業永續</span>
+              </div>
+              <div  style="border: 1px solid red">
+                <span>數位便利</span>
+              </div>
+              <div  style="border: 1px solid red">
+                <span>現正推出</span>
+              </div>
+              <div  style="border: 1px solid red">
+                <span>尋找餐廳</span>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div
+        style="
+                border: 3px solid green;
+                box-sizing: border-box;
+                justify-content: flex-end;
+                max-height: 30px;
+                width: auto;
+              ">
+          <div class="align-items-start navTopWrap">
+            <div style="border: 1px solid red">
+              <span>站內搜尋</span>
+            </div>
+            <div style="border: 1px solid red">
+              <span>我附近的麥當勞</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: "McDonald",
   props: {
-    msg: String
-  }
-}
+    msg: String,
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
+* {
+  margin: 0;
   padding: 0;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
 a {
-  color: #42b983;
+  text-decoration: none;
+}
+span {
+  color: #141414;
+  font-size: 20px;
+}
+.container {
+  max-width: 100%;
+}
+.containerWrap {
+  padding: 0 13% 0;
+  border: 1px solid violet;
+}
+.navWrap {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 0 10%;
+  border: 1px solid black;
+}
+.navTopWrap {
+  display: flex;
+  justify-content: end;
+  text-align: end;
 }
 </style>
