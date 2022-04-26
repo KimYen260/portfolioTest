@@ -2,12 +2,11 @@
   <div class="container">
     <div class="containerWrap">
       <div class="navWrap">
-        <nav class="navbar">
-          <div class="align-items-center navWrap">
+        <nav>
+          <div class="align-items-end arrWrap">
             <div
               class="logo"
               style="
-                border: 3px solid red;
                 box-sizing: border-box;
                 max-height: 108px;
                 max-width: 108px;
@@ -18,39 +17,32 @@
                 alt=""
               />
             </div>
-            <div class="navWrap">
-              <div  style="border: 1px solid red">
+            <div class="listWrap">
+              <div class="arrList">
                 <span>別具滋味</span>
               </div>
-              <div  style="border: 1px solid red">
+              <div class="arrList">
                 <span>企業永續</span>
               </div>
-              <div  style="border: 1px solid red">
+              <div class="arrList">
                 <span>數位便利</span>
               </div>
-              <div  style="border: 1px solid red">
+              <div class="arrList">
                 <span>現正推出</span>
               </div>
-              <div  style="border: 1px solid red">
+              <div class="arrList">
                 <span>尋找餐廳</span>
               </div>
             </div>
           </div>
         </nav>
-        <div
-        style="
-                border: 3px solid green;
-                box-sizing: border-box;
-                justify-content: flex-end;
-                max-height: 30px;
-                width: auto;
-              ">
-          <div class="align-items-start navTopWrap">
-            <div style="border: 1px solid red">
-              <span>站內搜尋</span>
+        <div class="navTopWrap">
+          <div class="align-items-start arrWrap">
+            <div class="arrList">
+              <span class="smallC">站內搜尋</span>
             </div>
-            <div style="border: 1px solid red">
-              <span>我附近的麥當勞</span>
+            <div class="arrList">
+              <span class="smallC">我附近的麥當勞</span>
             </div>
           </div>
         </div>
@@ -61,7 +53,7 @@
 
 <script>
 export default {
-  name: "McDonald",
+  name: "NavBar",
   props: {
     msg: String,
   },
@@ -77,26 +69,57 @@ export default {
 a {
   text-decoration: none;
 }
+/* 文字設定 */
 span {
   color: #141414;
-  font-size: 20px;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  width: fit-content;
 }
 .container {
   max-width: 100%;
 }
 .containerWrap {
   padding: 0 13% 0;
-  border: 1px solid violet;
+  /* border: 1px solid violet; */
 }
 .navWrap {
   display: flex;
   flex-direction: row;
-  margin: 0 0 0 10%;
-  border: 1px solid black;
+  justify-content: space-between;
+  width: 100%;
 }
+.arrWrap {
+  display: flex;
+  min-width: 100%;
+  padding-top: 10px;
+  /* border: 2px solid rgb(76, 224, 18); */
+
+}
+/* 清單外層 */
+.listWrap {
+  display: flex;
+  min-width: 100%;
+  height: 100%;
+  padding-bottom: 20px;
+  
+  /* border: 2px solid rgb(182, 10, 197); */
+
+}
+.arrList {
+width: 100%;
+justify-content: end;
+text-align: end;
+margin-left: 4%;
+}
+
 .navTopWrap {
   display: flex;
+  width: 30%;
   justify-content: end;
-  text-align: end;
+}
+
+.smallC {
+font-size: 1rem;
 }
 </style>
