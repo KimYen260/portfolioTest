@@ -1,7 +1,7 @@
 <template>
   <footer class="container">
     <div class="containerWrap">
-      <div class="footAllWrap">
+      <div class="bodyWrap">
         <div class="footTopWrap">
           <div class="col-3" v-for="(item, index) in footerList" :key="index">
             <ul>
@@ -12,29 +12,7 @@
             </ul>
           </div>
         </div>
-        <div class="footTopWrap thirdLinks">
-          <div>
-            <img
-              src="https://www.mcdonalds.com/content/dam/tw/logo/app_store_badge.png"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              src="https://www.mcdonalds.com/content/dam/tw/logo/google_play_badge.png"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="footBotWrap">
-          <div class="footTopWrap smallC">
-            <p>網站使用條款</p>
-            <p>隱私權保護聲明</p>
-          </div>
-          <div class="smallC">
-            © 2017 - 2022 McDonald's. All Rights Reserved.
-          </div>
-        </div>
+        
       </div>
     </div>
   </footer>
@@ -86,46 +64,20 @@ span {
   box-sizing: border-box;
   width: fit-content;
 }
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-li {
-  text-align: start;
-  font-size: 1rem;
-  color: rgb(46, 45, 45);
-}
-li:nth-child(1) {
-  margin-bottom: 8%;
-}
+
 .container {
   max-width: 100%;
 }
 .containerWrap {
   padding: 0 13% 0;
 }
-.footAllWrap {
+.bodyWrap {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.footTopWrap {
-  display: flex;
-  width: 100%;
-}
-.footBotWrap {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  padding: 2.5rem 0;
-}
-.thirdLinks {
-  padding: 2.5rem 0;
-  justify-content: end;
-  border-bottom: 0.75px solid grey;
-}
+
 .smallC {
   font-size: 1rem;
 }

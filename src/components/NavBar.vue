@@ -4,14 +4,7 @@
       <div class="navWrap">
         <nav>
           <div class="align-items-end arrWrap">
-            <div
-              class="logo"
-              style="
-                box-sizing: border-box;
-                max-height: 108px;
-                max-width: 108px;
-              "
-            >
+            <div class="logo">
               <img
                 src="https://www.mcdonalds.com/etc/designs/mcd/tw/zh-tw/_jcr_content/logo/image.img.jpg/1649654364979.jpg"
                 alt=""
@@ -76,25 +69,38 @@ span {
   box-sizing: border-box;
   width: fit-content;
 }
+.smallC {
+font-size: 1rem;
+}
+/* 視窗 */
 .container {
   max-width: 100%;
 }
+/* 視窗內縮 */
 .containerWrap {
   padding: 0 13% 0;
   /* border: 1px solid violet; */
 }
+/* navbar整體排版 */
 .navWrap {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
 }
+/* List頁面排版 div方式*/
 .arrWrap {
   display: flex;
   min-width: 100%;
   padding-top: 10px;
   /* border: 2px solid rgb(76, 224, 18); */
-
+}
+/* List內容 */
+.arrList {
+width: 100%;
+justify-content: end;
+text-align: end;
+margin-left: 4%;
 }
 /* 清單外層 */
 .listWrap {
@@ -102,24 +108,18 @@ span {
   min-width: 100%;
   height: 100%;
   padding-bottom: 20px;
-  
-  /* border: 2px solid rgb(182, 10, 197); */
-
 }
-.arrList {
-width: 100%;
-justify-content: end;
-text-align: end;
-margin-left: 4%;
-}
-
+/* navbar 排版 */
 .navTopWrap {
   display: flex;
   width: 30%;
   justify-content: end;
 }
+.logo{
+  box-sizing: border-box;
+  max-height: 108px;
+  max-width: 108px;
 
-.smallC {
-font-size: 1rem;
 }
+
 </style>

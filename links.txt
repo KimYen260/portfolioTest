@@ -24,3 +24,9 @@ https://www.mcdonalds.com/is/image/content/dam/tw/featured-callout/desktop/zh-tw
 
 6 of 6
 https://www.mcdonalds.com/is/image/content/dam/tw/featured-callout/desktop/zh-tw/Home_Banner_Digital_PC574x249.jpg?$FC_One_By_Two$
+
+Apple
+https://www.mcdonalds.com/content/dam/tw/logo/app_store_badge.png
+
+Google
+https://www.mcdonalds.com/content/dam/tw/logo/google_play_badge.png
