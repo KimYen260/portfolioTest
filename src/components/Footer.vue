@@ -28,10 +28,12 @@
         </div>
         <div class="footBotWrap">
           <div class="footTopWrap smallC">
-            <p>網站使用條款</p>
-            <p>隱私權保護聲明</p>
+            <ul class="bot">
+              <li>網站使用條款</li>
+              <li>隱私權保護聲明</li>
+            </ul>
           </div>
-          <div class="smallC">
+          <div class="bot" style="border: 2px solid black;">
             © 2017 - 2022 McDonald's. All Rights Reserved.
           </div>
         </div>
@@ -90,6 +92,17 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+ul.bot{
+  display: flex;
+  width: 50%;
+  border: 2px solid black;
+}
+.bot li{
+  padding: 5px;
+}
+div.bot{
+  justify-content: end;
 }
 li {
   text-align: start;
