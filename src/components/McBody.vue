@@ -1,18 +1,36 @@
 <template>
   <footer class="container">
     <div class="containerWrap">
-      <div class="bodyWrap">
-        <div class="footTopWrap">
-          <div class="col-3" v-for="(item, index) in footerList" :key="index">
-            <ul>
-              <li>{{ item.first }}</li>
-              <li>{{ item.second }}</li>
-              <li>{{ item.third }}</li>
-              <li>{{ item.fourth }}</li>
-            </ul>
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.mcdonalds.com/is/image/content/dam/tw/carousel/desktop/210519/PCSafety.jpg?$Hero_Desktop$
+" class="d-block w-100" alt="slides" />
           </div>
+          <div class="carousel-item">
+            <img src="https://www.mcdonalds.com/is/image/content/dam/tw/carousel/desktop/2022/0420/mfckorean-carousel-pc-1260x560.jpg?$Hero_Desktop$
+" class="d-block w-100" alt="slides" />
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.mcdonalds.com/is/image/content/dam/tw/carousel/desktop/210519/PCSafety.jpg?$Hero_Desktop$
+" class="d-block w-100" alt="slides" />
+          </div>
+          
+          
         </div>
-        
+      </div>
+      <div class="cards">
+        <div class="card col-6" style="width: 18rem;">
+
+  <img src="https://www.mcdonalds.com/is/image/content/dam/tw/featured-callout/desktop/zh-tw/what-hot-PC.jpg?$FC_One_By_Two$" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
       </div>
     </div>
   </footer>
@@ -76,7 +94,6 @@ span {
   flex-direction: column;
   width: 100%;
 }
-
 
 .smallC {
   font-size: 1rem;
