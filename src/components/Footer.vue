@@ -1,36 +1,18 @@
 <template>
   <footer class="container">
     <div class="containerWrap">
-      <div class="footWrap">
-        <div class="cols-4">
-          <ul>
-            <li>關於我們</li>
-            <li>品牌故事與承諾</li>
-            <li>新聞室</li>
-            <li>麥當勞季報</li>
-          </ul>
-        </div>
-         <div class="cols-4">
-          <ul>
-            <li>成為麥胞</li>
-            <li>職涯發展</li>
-            <li>加入我們</li>
-          </ul>
-        </div>
-         <div class="cols-4">
-          <ul>
-            <li>聯絡我們</li>
-            <li>常見問題</li>
-          </ul>
-        </div>
-         <div class="cols-4">
-          <ul>
-            <li>麥當勞叔叔之家慈善基金會</li>
-          </ul>
-        </div>
+      <div class="footAllWrap">
         <div class="footTopWrap">
-          
+          <div class="col-3" v-for="(item, index) in footerList" :key="index">
+            <ul>
+              <li>{{ item.first }}</li>
+              <li>{{ item.second }}</li>
+              <li>{{ item.third }}</li>
+              <li>{{ item.fourth }}</li>
+            </ul>
+          </div>
         </div>
+        <div class="footBotWrap"></div>
       </div>
     </div>
   </footer>
@@ -40,8 +22,29 @@
 export default {
   name: "navbar",
   data() {
-    return {};
-  }
+    return {
+      footerList: [
+        {
+          first: "關於我們",
+          second: "品牌故事與承諾",
+          third: "新聞室",
+          fourth: "麥當勞季報",
+        },
+        {
+          first: "成為麥胞",
+          second: "職涯發展",
+          third: "加入我們",
+        },
+        {
+          first: "聯絡我們",
+          second: "常見問題",
+        },
+        {
+          first: "麥當勞叔叔之家慈善基金會",
+        },
+      ],
+    };
+  },
 };
 </script>
 
@@ -61,50 +64,38 @@ span {
   box-sizing: border-box;
   width: fit-content;
 }
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  text-align: start;
+}
+li:nth-child(1) {
+  margin-bottom: 8%;
+}
 .container {
   max-width: 100%;
 }
 .containerWrap {
   padding: 0 13% 0;
-  /* border: 1px solid violet; */
+  border: 1px solid violet;
 }
-.navWrap {
+.footAllWrap {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   width: 100%;
 }
-.arrWrap {
-  display: flex;
-  min-width: 100%;
-  padding-top: 10px;
-  /* border: 2px solid rgb(76, 224, 18); */
 
-}
-/* 清單外層 */
-.listWrap {
+.footTopWrap {
   display: flex;
-  min-width: 100%;
-  height: 100%;
-  padding-bottom: 20px;
-  
-  /* border: 2px solid rgb(182, 10, 197); */
-
-}
-.arrList {
-width: 100%;
-justify-content: end;
-text-align: end;
-margin-left: 4%;
-}
-
-.navTopWrap {
-  display: flex;
-  width: 30%;
-  justify-content: end;
+  width: 100%;
+  justify-content: start;
 }
 
 .smallC {
-font-size: 1rem;
+  font-size: 1rem;
 }
 </style>
