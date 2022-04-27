@@ -5,21 +5,21 @@
         <div class="footTopWrap">
           <div class="col-3" v-for="(item, index) in footerList" :key="index">
             <ul>
-              <li>{{ item.first }}</li>
-              <li>{{ item.second }}</li>
-              <li>{{ item.third }}</li>
-              <li>{{ item.fourth }}</li>
+              <li class="cursor-pointer">{{ item.first }}</li>
+              <li class="cursor-pointer">{{ item.second }}</li>
+              <li class="cursor-pointer">{{ item.third }}</li>
+              <li class="cursor-pointer">{{ item.fourth }}</li>
             </ul>
           </div>
         </div>
         <div class="footTopWrap thirdLinks">
-          <div>
+          <div class="cursor-pointer">
             <img
               src="https://www.mcdonalds.com/content/dam/tw/logo/app_store_badge.png"
               alt=""
             />
           </div>
-          <div>
+          <div class="cursor-pointer">
             <img
               src="https://www.mcdonalds.com/content/dam/tw/logo/google_play_badge.png"
               alt=""
@@ -27,8 +27,8 @@
           </div>
         </div>
         <div class="footBotWrap">
-          <div class="footTopWrap smallC">
-            <ul class="bot">
+          <div class="footBotWrap smallC">
+            <ul class="row">
               <li>網站使用條款</li>
               <li>隱私權保護聲明</li>
             </ul>
@@ -50,19 +50,19 @@ export default {
           first: "關於我們",
           second: "品牌故事與承諾",
           third: "新聞室",
-          fourth: "麥當勞季報",
+          fourth: "麥當勞季報"
         },
         {
           first: "成為麥胞",
           second: "職涯發展",
-          third: "加入我們",
+          third: "加入我們"
         },
         {
           first: "聯絡我們",
-          second: "常見問題",
+          second: "常見問題"
         },
         {
-          first: "麥當勞叔叔之家慈善基金會",
+          first: "麥當勞叔叔之家慈善基金會"
         },
       ],
     };
@@ -139,5 +139,8 @@ li:nth-child(1) {
 }
 .smallC {
   font-size: 1rem;
+}
+.cursor-pointer {
+  cursor: pointer;
 }
 </style>

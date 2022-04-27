@@ -4,38 +4,40 @@
       <div class="navWrap">
         <nav>
           <div class="align-items-end arrWrap">
-            <div class="logo">
+            <div class="logo cursor-pointer">
               <img
                 src="https://www.mcdonalds.com/etc/designs/mcd/tw/zh-tw/_jcr_content/logo/image.img.jpg/1649654364979.jpg"
                 alt=""
               />
             </div>
             <div class="listWrap">
-              <div class="arrList">
+              <div class="arrList cursor-pointer">
                 <span>別具滋味</span>
               </div>
-              <div class="arrList">
+              <div class="arrList cursor-pointer">
                 <span>企業永續</span>
               </div>
-              <div class="arrList">
+              <div class="arrList cursor-pointer">
                 <span>數位便利</span>
               </div>
-              <div class="arrList">
+              <div class="arrList cursor-pointer">
                 <span>現正推出</span>
               </div>
-              <div class="arrList">
+              <div class="arrList cursor-pointer">
                 <span>尋找餐廳</span>
               </div>
             </div>
           </div>
         </nav>
         <div class="navTopWrap">
-          <div class="align-items-start arrWrap">
+          <div class="align-items-start arrRightWrap">
             <div class="arrList">
-              <span class="smallC">站內搜尋</span>
+              <i class="el-icon-search"></i>
+              <span class="smallC" style="margin-left:2px">站內搜尋</span>
             </div>
             <div class="arrList">
-              <span class="smallC">我附近的麥當勞</span>
+              <i class="el-icon-location" style="color:red;font-size:1.3rem;"></i>
+              <span class="smallC" style="margin-left:2px">我附近的麥當勞</span>
             </div>
           </div>
         </div>
@@ -49,7 +51,8 @@ export default {
   name: "NavBar",
   props: {
     msg: String,
-  },
+  }
+  
 };
 </script>
 
@@ -98,6 +101,12 @@ font-size: 1rem;
   padding-top: 10px;
   /* border: 2px solid rgb(76, 224, 18); */
 }
+.arrRightWrap {
+  display: flex;
+  min-width: 100%;
+  padding-top: 10px;
+  align-items: center;
+}
 /* List內容 */
 .arrList {
 width: 100%;
@@ -122,7 +131,8 @@ margin-left: 4%;
   box-sizing: border-box;
   max-height: 108px;
   max-width: 108px;
-
 }
-
+.cursor-pointer {
+  cursor: pointer;
+}
 </style>
