@@ -79,8 +79,11 @@ font-size: 1rem;
 /* 視窗內縮 */
 .containerWrap {
   padding: 0 13% 0;
-  /* border: 1px solid violet; */
+  margin-bottom: 4%;
+  box-shadow: 0px 5px 10px rgb(219, 219, 219, .3);
+  /* 陰影 */
 }
+
 /* navbar整體排版 */
 .navWrap {
   display: flex;
