@@ -33,9 +33,7 @@
               <li>隱私權保護聲明</li>
             </ul>
           </div>
-          <div class="bot">
-            © 2017 - 2022 McDonald's. All Rights Reserved.
-          </div>
+          <div class="bot">© 2017 - 2022 McDonald's. All Rights Reserved.</div>
         </div>
       </div>
     </div>
@@ -93,14 +91,14 @@ ul {
   padding: 0;
   margin: 0;
 }
-ul.bot{
+ul.bot {
   display: flex;
   width: 60%;
 }
-.bot li{
+.bot li {
   padding: 5px;
 }
-div.bot{
+div.bot {
   justify-content: end;
 }
 li {
@@ -126,6 +124,7 @@ li:nth-child(1) {
 .footTopWrap {
   display: flex;
   width: 100%;
+  padding: 8% 0 0 0;
 }
 .footBotWrap {
   display: flex;
