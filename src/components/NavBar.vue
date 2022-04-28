@@ -31,11 +31,11 @@
         </nav>
         <div class="navTopWrap">
           <div class="align-items-start arrRightWrap">
-            <div class="arrList">
+            <div class="arrList cursor-pointer">
               <i class="el-icon-search"></i>
               <span class="smallC">站內搜尋</span>
             </div>
-            <div class="arrList">
+            <div class="arrList cursor-pointer">
               <i class="el-icon-location" style="color: red;"></i>
               <span class="smallC">我附近的麥當勞</span>
             </div>

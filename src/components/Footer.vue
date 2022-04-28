@@ -29,11 +29,11 @@
         <div class="footBotWrap">
           <div class="smallC">
             <ul class="bot">
-              <li>網站使用條款</li>
-              <li>隱私權保護聲明</li>
+              <li class="cursor-pointer">網站使用條款</li>
+              <li class="cursor-pointer">隱私權保護聲明</li>
             </ul>
           </div>
-          <div class="bot">© 2017 - 2022 McDonald's. All Rights Reserved.</div>
+          <div class="bot">© 2017 - 2022 McDonald's. 切版練習用.</div>
         </div>
       </div>
     </div>
