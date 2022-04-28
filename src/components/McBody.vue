@@ -28,8 +28,8 @@
         v-for="(item, index) in cardList"
         :key="index"
       >
-        <div style="margin-right: 1%">
-          <div class="card">
+        
+          <div class="card" style="margin-right: 1%">
             <img :src="item.first.cardImg" class="card-img-top cardH" alt="card photo" />
             <div class="card-body p-5">
               <h3>{{ item.first.cardTitle }}</h3>
@@ -37,7 +37,7 @@
               <button type="button cardH" class="btn btn-warning btn-lg">{{ item.first.buttonName }}</button>
             </div>
           </div>
-        </div>
+        
         <div class="card" style="margin-left: 1%">
           <img :src="item.second.cardImg" class="card-img-top" alt="card photo" />
           <div class="card-body p-5">

@@ -16,19 +16,19 @@
           <div class="cursor-pointer">
             <img
               src="https://www.mcdonalds.com/content/dam/tw/logo/app_store_badge.png"
-              alt=""
+              alt="apple link"
             />
           </div>
           <div class="cursor-pointer">
             <img
               src="https://www.mcdonalds.com/content/dam/tw/logo/google_play_badge.png"
-              alt=""
+              alt="google link"
             />
           </div>
         </div>
         <div class="footBotWrap">
-          <div class="footBotWrap smallC">
-            <ul class="row">
+          <div class="smallC">
+            <ul class="bot">
               <li>網站使用條款</li>
               <li>隱私權保護聲明</li>
             </ul>
@@ -93,10 +93,12 @@ ul {
 }
 ul.bot {
   display: flex;
-  width: 60%;
+  min-width: 100%;
 }
 .bot li {
-  padding: 5px;
+  box-sizing: border-box;
+  min-width: 50px;
+  padding: 0 5px;
 }
 div.bot {
   justify-content: end;
@@ -106,7 +108,7 @@ li {
   font-size: 1rem;
   color: rgb(46, 45, 45);
 }
-li:nth-child(1) {
+li:nth-child(1).cursor-pointer {
   margin-bottom: 8%;
 }
 .container {

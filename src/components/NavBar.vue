@@ -7,7 +7,7 @@
             <div class="logo cursor-pointer">
               <img
                 src="https://www.mcdonalds.com/etc/designs/mcd/tw/zh-tw/_jcr_content/logo/image.img.jpg/1649654364979.jpg"
-                alt=""
+                alt="logo"
               />
             </div>
             <div class="listWrap">
@@ -33,11 +33,11 @@
           <div class="align-items-start arrRightWrap">
             <div class="arrList">
               <i class="el-icon-search"></i>
-              <span class="smallC" style="margin-left:2px">站內搜尋</span>
+              <span class="smallC">站內搜尋</span>
             </div>
             <div class="arrList">
-              <i class="el-icon-location" style="color:red;font-size:1.3rem;"></i>
-              <span class="smallC" style="margin-left:2px">我附近的麥當勞</span>
+              <i class="el-icon-location" style="color: red;"></i>
+              <span class="smallC">我附近的麥當勞</span>
             </div>
           </div>
         </div>
@@ -74,6 +74,7 @@ span {
 }
 .smallC {
 font-size: 1rem;
+margin-left:2px
 }
 /* 視窗 */
 .container {
@@ -113,6 +114,9 @@ width: 100%;
 justify-content: end;
 text-align: end;
 margin-left: 4%;
+}
+.arrList> i {
+  font-size:1.3rem;
 }
 /* 清單外層 */
 .listWrap {
