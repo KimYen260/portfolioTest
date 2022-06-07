@@ -6,7 +6,7 @@
           <div class="align-items-end arrWrap">
             <div class="logo cursor-pointer">
               <img
-                src="https://www.mcdonalds.com/etc/designs/mcd/tw/zh-tw/_jcr_content/logo/image.img.jpg/1649654364979.jpg"
+                src="https://www.mcdonalds.com/content/dam/sites/nl/nfl/logo/Logo_on_white_desktop_Small.jpg"
                 alt="logo"
               />
             </div>

@@ -1,5 +1,5 @@
 <template>
-  <footer class="container">
+  <div class="container">
     <div class="containerWrap">
       <div
         id="carouselExampleSlidesOnly"
@@ -9,7 +9,7 @@
         <div class="carousel-inner col-10">
           <div class="carousel-item active">
             <img
-              src="https://www.mcdonalds.com/is/image/content/dam/tw/carousel/desktop/210519/PCSafety.jpg?$Hero_Desktop$"
+              src="https://s7d1.scene7.com/is/image/mcdonalds/PCSafety:accessible-carousel-desktop"
               class="d-block w-100"
               alt="slides"
             />
@@ -28,7 +28,7 @@
           </div>
           <div class="carousel-item">
             <img
-              src="https://www.mcdonalds.com/is/image/content/dam/tw/carousel/desktop/2022/0420/mfckorean-carousel-pc-1260x560.jpg?$Hero_Desktop$"
+              src="https://www.mcdonalds.com/content/dam/sites/tw/carousel/desktop/%E5%AE%98%E7%B6%B2PC%202336X1040(new).png"
               class="d-block w-100"
               alt="slides"
             />
@@ -84,7 +84,7 @@
         </div>
       </div>
     </div>
-  </footer>
+  </div>
 </template>
 
 <script>
@@ -96,7 +96,7 @@ export default {
         {
           first: {
             cardImg:
-              "https://www.mcdonalds.com/is/image/content/dam/tw/featured-callout/desktop/zh-tw/what-hot-PC.jpg?$FC_One_By_Two$",
+              "https://s7d1.scene7.com/is/image/mcdonalds/what-hot-PC-1:1-2-full-bleed-tile-desktop",
             cardTitle: "現正推出",
             cardDes:
               "想了解麥當勞有哪些最新活動嗎？你不想錯過的美食、最即時的優惠內容... 馬上探索、馬上行動！",
@@ -104,7 +104,7 @@ export default {
           },
           second: {
             cardImg:
-              "https://www.mcdonalds.com/is/image/content/dam/tw/featured-callout/desktop/zh-tw/mcd-home-mds-pc.jpg?$FC_One_By_Two$",
+              "https://s7d1.scene7.com/is/image/mcdonalds/mcd-home-mds-pc-1:1-2-full-bleed-tile-desktop",
             cardTitle: "24hr歡樂送",
             cardDes:
               "想了解麥當勞有哪些最新活動嗎？你不想錯過的美食、最即時的優惠內容... 馬上探索、馬上行動！",
@@ -114,7 +114,7 @@ export default {
         {
           first: {
             cardImg:
-              "https://www.mcdonalds.com/is/image/content/dam/tw/featured-callout/desktop/zh-tw/0-1-McCafe-banner-574x249-pc.jpg?$FC_One_By_Two$",
+              "https://s7d1.scene7.com/is/image/mcdonalds/McCafe-banner:1-2-full-bleed-tile-desktop",
             cardTitle: "一杯McCafé一段對話",
             cardDes:
               "想了解麥當勞有哪些最新活動嗎？你不想錯過的美食、最即時的優惠內容... 馬上探索、馬上行動！",
@@ -122,7 +122,7 @@ export default {
           },
           second: {
             cardImg:
-              "https://www.mcdonalds.com/is/image/content/dam/tw/featured-callout/desktop/zh-tw/%E8%A6%AA%E5%AD%90%E6%99%82%E5%85%89KV_PC_574x249.jpg?$FC_One_By_Two$",
+              "https://s7d1.scene7.com/is/image/mcdonalds/%E8%A6%AA%E5%AD%90%E6%99%82%E5%85%89KV_PC:1-2-full-bleed-tile-desktop",
             cardTitle: "親子時光",
             cardDes:
               "想了解麥當勞有哪些最新活動嗎？你不想錯過的美食、最即時的優惠內容... 馬上探索、馬上行動！",
@@ -132,7 +132,7 @@ export default {
         {
           first: {
             cardImg:
-              "https://www.mcdonalds.com/is/image/content/dam/tw/featured-callout/desktop/zh-tw/0-good-food-parents-child-574x249-pc.jpg?$FC_One_By_Two$",
+              "https://s7d1.scene7.com/is/image/mcdonalds/good-food-parents-child:1-2-full-bleed-tile-desktop",
             cardTitle: "安心品質",
             cardDes:
               "想了解麥當勞有哪些最新活動嗎？你不想錯過的美食、最即時的優惠內容... 馬上探索、馬上行動！",
@@ -140,7 +140,7 @@ export default {
           },
           second: {
             cardImg:
-              "https://www.mcdonalds.com/is/image/content/dam/tw/featured-callout/desktop/zh-tw/Home_Banner_Digital_PC574x249.jpg?$FC_One_By_Two$",
+              "https://s7d1.scene7.com/is/image/mcdonalds/Home_Banner_Digital_PC:1-2-full-bleed-tile-desktop",
             cardTitle: "數位便利",
             cardDes:
               "想了解麥當勞有哪些最新活動嗎？你不想錯過的美食、最即時的優惠內容... 馬上探索、馬上行動！",

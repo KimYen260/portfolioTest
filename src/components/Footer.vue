@@ -15,13 +15,13 @@
         <div class="footTopWrap thirdLinks">
           <div class="cursor-pointer">
             <img
-              src="https://www.mcdonalds.com/content/dam/tw/logo/app_store_badge.png"
+              src="https://www.mcdonalds.com/content/dam/sites/tw/apppromo/iosBadge.png"
               alt="apple link"
             />
           </div>
           <div class="cursor-pointer">
             <img
-              src="https://www.mcdonalds.com/content/dam/tw/logo/google_play_badge.png"
+              src="https://www.mcdonalds.com/content/dam/sites/tw/apppromo/androidBadge.png"
               alt="google link"
             />
           </div>
